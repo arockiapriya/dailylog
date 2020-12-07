@@ -1,0 +1,15 @@
+------------------------------------------
+Day # 1  - Dec 07, 2020 - Monday
+------------------------------------------
+git clone https://github.com/arockiapriya/dailylog.git
+
+github -> arockiapriya->respository
+
+tacttimer.herokuapp.com
+
+https://www.speedtest.net/result/10547972977  -> speed test
+
+git status
+git add .
+git commit -m "file added"
+git push
