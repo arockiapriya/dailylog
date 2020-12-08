@@ -1,15 +1,71 @@
 ------------------------------------------
 Day # 1  - Dec 07, 2020 - Monday
 ------------------------------------------
-git clone https://github.com/arockiapriya/dailylog.git
 
-github -> arockiapriya->respository
+https://www.random.org/ - > game
 
-tacttimer.herokuapp.com
+tacttimer.herokuapp.com -> Timer check
 
 https://www.speedtest.net/result/10547972977  -> speed test
 
+
+github -> arockiapriya->create respository
+
+how to add files in respository???
+
+get the existing respository from github 
+
+git clone https://github.com/arockiapriya/dailylog.git
+
+Open VS
+File-> Add folder to Workplace
+
+Do the changes in code file 
+
+To add/update files to github:
 git status
 git add .
 git commit -m "file added"
 git push
+
+on call ??
+
+
+------------------------------------------
+Day # 2  - Dec 08, 2020 - Monday
+------------------------------------------
+Python Learning:
+
+Mutable Def:
+Mutable objects can change their value but keep their id().
+list :Not hashable; mutable.
+
+Immutable Def:
+An object with a fixed value. Immutable objects include numbers, strings and
+tuples. Such an object cannot be altered. A new object has to be created if
+a different value has to be stored. They play an important role in places where
+a constant hash value is needed, for example as a key in a dictionary.
+
+tuple :immutable; hashable if all its members are hashable
+
+Hashable Def:
+
+An object is hashable if it has a hash value which never changes during
+its lifetime (it needs a hash()method), and can be compared to other objects
+(it needs an eq() method). Hashable objects which compare equal must have
+the same hash value.
+
+set : An unordered collection of unique values. Items must be hashable.
+dict : An unordered collection of unique key-value pairs; keys must be hashable.
+
+Examples of immutable Data Types:
+int , long , float , complex
+str
+bytes
+tuple
+frozenset
+Examples of mutable Data Types:
+bytearray
+list
+set
+dict
